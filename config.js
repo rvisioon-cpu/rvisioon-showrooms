@@ -1,5 +1,5 @@
 window.RVISIOON_DEFAULTS = {
-  "version": 1,
+  "version": 2,
   "eventName": "Showrooms virtuales",
   "projects": [
     {
@@ -48,6 +48,14 @@ window.RVISIOON_DEFAULTS = {
       "shortName": "Saint Elliot",
       "url": "https://saint-elliot.sumac.com.pe/",
       "cover": "assets/proyecto-saint-16x9.webp",
+      "enabled": true
+    },
+    {
+      "id": "mardejava",
+      "name": "Mar de Java",
+      "shortName": "Mar de Java",
+      "url": "https://mardejava.inmobiliariabuleje.pe/",
+      "cover": "assets/proyecto-mardejava-16x9.webp",
       "enabled": true
     }
   ]
