@@ -3,12 +3,22 @@ window.RVISIOON_DEFAULTS = {
   "eventName": "Showrooms virtuales",
   "projects": [
     {
+      "id": "mardejava",
+      "name": "Mar de Java",
+      "shortName": "Mar de Java",
+      "url": "https://mardejava.inmobiliariabuleje.pe/",
+      "cover": "assets/proyecto-mardejava-16x9.webp",
+      "enabled": true,
+      "developmentType": "vertical"
+    },
+    {
       "id": "oceano",
       "name": "Océano Atlántico",
       "shortName": "Océano Atlántico",
       "url": "https://oceanoatlantico.rmpromotorainmobiliaria.com/",
       "cover": "assets/proyecto-oceano-16x9.webp",
-      "enabled": true
+      "enabled": true,
+      "developmentType": "vertical"
     },
     {
       "id": "olimpo",
@@ -16,7 +26,8 @@ window.RVISIOON_DEFAULTS = {
       "shortName": "El Olimpo",
       "url": "https://elolimpodetumbes.oisolucionesinmobiliarias.com/",
       "cover": "assets/proyecto-olimpo-16x9.webp",
-      "enabled": true
+      "enabled": true,
+      "developmentType": "horizontal"
     },
     {
       "id": "santafe",
@@ -24,7 +35,8 @@ window.RVISIOON_DEFAULTS = {
       "shortName": "Santa Fe",
       "url": "https://santafe.kayeninmobiliaria.pe/",
       "cover": "assets/proyecto-santafe-16x9.webp",
-      "enabled": true
+      "enabled": true,
+      "developmentType": "vertical"
     },
     {
       "id": "venecia",
@@ -32,7 +44,8 @@ window.RVISIOON_DEFAULTS = {
       "shortName": "Venecia",
       "url": "https://venecia.cimaprince.com/",
       "cover": "assets/proyecto-venecia-16x9.webp",
-      "enabled": true
+      "enabled": true,
+      "developmentType": "vertical"
     },
     {
       "id": "altamira",
@@ -40,7 +53,8 @@ window.RVISIOON_DEFAULTS = {
       "shortName": "Altamira Park",
       "url": "https://altamira-park.prohouse.pe/",
       "cover": "assets/proyecto-altamira-16x9.webp",
-      "enabled": true
+      "enabled": true,
+      "developmentType": "vertical"
     },
     {
       "id": "saint",
@@ -48,15 +62,8 @@ window.RVISIOON_DEFAULTS = {
       "shortName": "Saint Elliot",
       "url": "https://saint-elliot.sumac.com.pe/",
       "cover": "assets/proyecto-saint-16x9.webp",
-      "enabled": true
-    },
-    {
-      "id": "mardejava",
-      "name": "Mar de Java",
-      "shortName": "Mar de Java",
-      "url": "https://mardejava.inmobiliariabuleje.pe/",
-      "cover": "assets/proyecto-mardejava-16x9.webp",
-      "enabled": true
+      "enabled": true,
+      "developmentType": "vertical"
     }
   ]
 };
