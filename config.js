@@ -1,7 +1,16 @@
 window.RVISIOON_DEFAULTS = {
-  "version": 2,
+  "version": 3,
   "eventName": "Showrooms virtuales",
   "projects": [
+    {
+      "id": "livigno",
+      "name": "Livigno 555",
+      "shortName": "Livigno 555",
+      "url": "https://livigno555.com/",
+      "cover": "assets/proyecto-livigno-16x9.webp",
+      "enabled": true,
+      "developmentType": "vertical"
+    },
     {
       "id": "mardejava",
       "name": "Mar de Java",
@@ -65,5 +74,6 @@ window.RVISIOON_DEFAULTS = {
       "enabled": true,
       "developmentType": "vertical"
     }
-  ]
+  ],
+  "featuredProjectId": "livigno"
 };
